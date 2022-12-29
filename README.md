@@ -15,8 +15,7 @@ You can ONLY retrieve items by their primary key in NoSQl databases
 
 NoSQL - 1. "Not Only SQL" 2. Non-relational
 
-================================================================================================================
-================================================================================================================
+=======================================================================================
 
 Apache Kafka: A distributed messaging system for a vast amounts of data + Event streaming platform
 
@@ -41,4 +40,12 @@ Topics: A topic is similar to a folder in a filesystem, and the events are the f
 -Every topic can be replicated to make your data fault-tolerant and highly-available (a common production setting is a replication of 3, which means three copies of data)
 
 Partitioned: Meaning a topic is spread over a number of "buckets" located on different Kafka brokers
+
+=======================================================================================
+
+Spring Batch: An Open Source framework for Batch processing
+
+Spring Batch is intended to work in conjunction with a scheduler rather than replace a scheduler.
+
+
 
