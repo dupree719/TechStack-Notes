@@ -31,7 +31,7 @@ Cluster - Group of computers
 
 Topic - A name for a Kafka stream
 
-Partitions - Part of a topic
+Partitions - Part of a topic (Kafka stream)
 
 Offset - Unique id for a message within a partition 
 
