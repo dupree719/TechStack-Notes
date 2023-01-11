@@ -20,13 +20,21 @@ NoSQL - 1. "Not Only SQL" 2. Non-relational
 Apache Kafka: A distributed messaging system for a vast amounts of data + Event streaming platform
 
 Key Words: 
+
 Producer - An application that sends data (messages) to Kafka
+
 Consumer - An application that receives data from kafka 
+
 Broker - Kafka Server
+
 Cluster - Group of computers
+
 Topic - A name for a Kafka stream
+
 Partitions - Part of a topic
+
 Offset - Unique id for a message within a partition 
+
 Consumer groups - A group of consumers acting as a simple logical unit
 
 Kakfa is run as a cluster of one or more servers that can span datacenters or cloud regions.
