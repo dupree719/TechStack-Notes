@@ -19,11 +19,11 @@ NoSQL - 1. "Not Only SQL" 2. Non-relational
 
 Apache Kafka: A distributed messaging system for a vast amounts of data + Event streaming platform
 
-Key Words: 
+Key Words: (What makes up Kafka)
 
-Producer - An application that sends data (messages) to Kafka
+Producer - An application that sends data (messages) to Kafka (Producers are those client applications that publish (write) events to Kafka)
 
-Consumer - An application that receives data from kafka 
+Consumer - An application that receives data from kafka (Consumers are those that subscribe to (read and process) these events)
 
 Broker - Kafka Server
 
@@ -37,11 +37,11 @@ Offset - Unique id for a message within a partition
 
 Consumer groups - A group of consumers acting as a simple logical unit
 
-Kakfa is run as a cluster of one or more servers that can span datacenters or cloud regions.
+Kakfa is run as a cluster of one or more servers (computers) that can span datacenters or cloud regions.
 Some of these servers form the storage layer aka the brokers.
 Other servers run Kafka Connect (used to import/export data as event streams)
 
-Terminology:
+
 Event - An event records the fact that "something happened" in the world or in your business. Ab event has a key, value, timestamp, and optional metadata headers
 
 ##Example:
@@ -50,9 +50,7 @@ Event - An event records the fact that "something happened" in the world or in y
 ##Event value: "Made a payment of $200 to Bob"
 ##Event timestamp: "Jun. 25, 2020 at 2:06 p.m."
 
-Producers: Producers are those client applications that publish (write) events to Kafka
 
-Consumers: Consumers are those that subscribe to (read and process) these events
 
 Topics: A topic is similar to a folder in a filesystem, and the events are the files in that folder. Topics are partitioned
 -Every topic can be replicated to make your data fault-tolerant and highly-available (a common production setting is a replication of 3, which means three copies of data)
