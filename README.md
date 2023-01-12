@@ -81,4 +81,7 @@ Spring Batch can be run as standalone application or within a container such as 
 
 Spring Batch provides monitoring and management support through Spring Batch Admin and the Spring Batch JMX, which makes it easy to monitor and manage batch jobs.
 
+A job can be defined using a simple XML configuration file that specifies the steps that should be executed as part of the job, as well as any other relevant details such as input and output resources, transaction management, and error handling.
+
+A job can also be defined programmatically by creating a class that implements Job interface and defining the steps and other details in the class.
 
