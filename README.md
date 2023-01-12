@@ -53,6 +53,12 @@ Streaming data integration: Kafka can be used to integrate data from multiple so
 
 Event-driven architectures: Kafka can be used to build event-driven architectures, where different parts of a system can react to changes in the data stream in real-time. This can include things like triggering a workflow, sending a notification, or updating a database.
 
+LinkedIn: LinkedIn, now owned by Microsoft, uses Kafka as the backbone of its data infrastructure. Kafka is used to handle more than 1 trillion messages per day, and it plays a critical role in LinkedIn's data pipeline, data processing and data integration.
+
+Netflix: Netflix uses Kafka to handle its real-time data streams. The platform uses Kafka to collect data from a variety of sources and make it available to downstream systems for analysis and action.
+
+Uber: Uber uses Kafka as a key component of its data pipeline. The platform uses Kafka to collect data from a variety of sources and make it available to downstream systems for analysis and action.
+
 =======================================================================================
 
 Spring Batch: An Open Source framework for Batch processing
